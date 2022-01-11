@@ -1,1 +1,13 @@
+.appBorder {
+    /* background-color: blue; */
+    border: 5px solid red;
+    height: 500px;
+    width: 100%;
+}
 
+
+@media screen and (max-width: 600px) {
+    .appBorder {
+        background-color: blue;
+    }
+}
